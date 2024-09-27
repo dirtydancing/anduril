@@ -951,6 +951,9 @@ This setting only applies to modes with channel ramping (i.e. tint
 ramping), and only when that mode uses the default `3H` event handler.
 Custom channel modes may work differently.
 
+Furthermore, on lights with channel modes, manual memory (`Ramp -> 10C`)
+not only saves the current brightness, but also the current channel mode.
+
 
 
 UI Reference Table
@@ -1007,6 +1010,7 @@ This is a table of all button mappings in Anduril, in one place:
 |                |        |         | 2: ceiling
 |                |        |         | 3: speed / steps
 | Ramp           | Full   | `10C`   | Turn on manual memory and save current brightness
+|                |        |         | (and current channel mode on multi-channel lights)
 | Ramp           | Full   | `10H`   | Ramp Extras config menu:
 |                |        |         | 1: switch to automatic mem, not manual mem
 |                |        |         | 2: set manual mem timeout
