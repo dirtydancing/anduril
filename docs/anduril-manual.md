@@ -1020,6 +1020,7 @@ This is a table of all button mappings in Anduril, in one place:
 | :---           | :--    | ------: | :-----
 | Any            | Any    | `3C`    | Next channel mode (i.e. next color mode)
 | Any            | Any    | `3H`    | Tint ramp (if this mode can)
+|                |        |         | Auto-tint: reverse ramp
 | Any            | Full   | `9H`    | Channel mode enable/disable menu:
 |                |        |         | N: click (or not) to enable (disable) mode N
 
